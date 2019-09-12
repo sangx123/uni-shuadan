@@ -8,18 +8,18 @@
 		
 		{
 			//登陆
-			"path": "pages/mine/children/login",
+			"path": "pages/login/login",
 			"style": {}
 		},
 		
 		{
 			//注册
-			"path": "pages/mine/children/register",
+			"path": "pages/login/register",
 			"style": {}
 		},
 		{
 			//找回密码
-			"path": "pages/mine/children/forget",
+			"path": "pages/login/forget",
 			"style": {}
 		}
 	],
@@ -41,7 +41,7 @@
 		"current": 0, //当前激活的模式(list 的索引项)
 		"list": [{
 				"name": "表单", //模式名称
-				"path": "pages/mine/children/login", //启动页面
+				"path": "pages/login/login", //启动页面
 				"query": "" //启动参数
 			}
 		]

@@ -60,8 +60,8 @@
 
 <script>
 	var _this,countDown;
-	import wInput from '../../../watch-login/watch-input.vue'; //输入框
-	import wButton from '../../../watch-login/watch-button.vue'; //按钮
+	import wInput from '../../watch-login/watch-input.vue'; //输入框
+	import wButton from '../../watch-login/watch-button.vue'; //按钮
 	export default {
 		data() {
 			return {
@@ -149,5 +149,5 @@
 </script>
 
 <style>
-	@import url("../css/main.css");
+	@import url("css/login.css");
 </style>

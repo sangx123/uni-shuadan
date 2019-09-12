@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/login/forget"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "ColorUi for UniApp",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "basics": "/pages/basics/home",
+    "components": "/pages/component/home",
+    "plugin": "/pages/plugin/home",
+    "mine": "/pages/mine/mine",
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

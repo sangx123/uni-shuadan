@@ -53,8 +53,8 @@
 
 <script>
 	var _this;
-	import wInput from '../../../watch-login/watch-input.vue'; //输入框
-	import wButton from '../../../watch-login/watch-button.vue'; //按钮
+	import wInput from '../../watch-login/watch-input.vue'; //输入框
+	import wButton from '../../watch-login/watch-button.vue'; //按钮
 	export default {
 		data() {
 			return {
@@ -132,12 +132,12 @@
 								"nickname":"sangxiang",
 								"accesstoken":"sangxiang",
 							} //保存用户信息和accesstoken
-							_this.$store.dispatch("setUserData",userdata); //存入状态
-							try {
-								uni.setStorageSync('setUserData', userdata); //存入缓存
-							} catch (e) {
-								// error
-							}
+							// _this.$store.dispatch("setUserData",userdata); //存入状态
+							// try {
+							// 	uni.setStorageSync('setUserData', userdata); //存入缓存
+							// } catch (e) {
+							// 	// error
+							// }
 							_this.isRotate=false
 							uni.showToast({
 								icon: 'success',
@@ -145,7 +145,7 @@
 								title: '登录成功'
 							});
 							uni.reLaunch({
-								url: '../../../pages/index',
+								url: '../index/index',
 							});
 						uni.hideLoading();
 					// }).catch(err => {
@@ -219,5 +219,5 @@
 </script>
 
 <style>
-	@import url("../css/main.css");
+	@import url("css/login.css");
 </style>
